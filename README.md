@@ -25,6 +25,7 @@ There is a slight improvement in terms of model performance.
 
 ## Final Model Creation
 A final model is created based on model3, the Ridge model. It is trained by the entire dataset. 
+I just caught another issue... Note that in final model training the hyperparamter is tuned instead of using the parameter that are found in tuning. 
 
 ## Testing
 3 properties are foound from [rentfaster.ca](https://www.rentfaster.ca/?utm_source=OOH&utm_medium=sign&utm_campaign=ca). The features are organized similarly to the original data given.
